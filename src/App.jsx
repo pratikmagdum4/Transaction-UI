@@ -161,7 +161,7 @@ import Statistics from './components/Statistics';
 import Charts from './components/Charts';
 import MonthSelector from './components/MonthSelector';
 import SearchBar from './components/SearchBar';
-
+import './index.css'
 const App = () => {
   const [month, setMonth] = useState('3'); // Default to March
   const [transactions, setTransactions] = useState([]);
